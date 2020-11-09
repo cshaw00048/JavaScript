@@ -7,7 +7,7 @@
 </head>
 <body>
     <script type="text/javascript">
-    var eatSteak = confirm ("Do you eat steak?");
+    var eatSteak = confirm("Do you eat steak?");
 
     if(eatSteak) {
         document.write("Here is a steak!");
@@ -16,7 +16,19 @@
     else {
         document.write ("Here is tofu stir fry!");
     }
-    
+
+    var birthYear = prompt("What year were you born?");
+
+    if(birthYear < 1999) {
+        alert("SAKE SAKE SAKE for you!");
+    }
+    else (birthYear > 1999) {
+        alert ("No sake for you!");
+    }
+    else {
+        alert("You inched by! Sake sake sake!");
+    }
+
     </script>
 </body>
 </html>
