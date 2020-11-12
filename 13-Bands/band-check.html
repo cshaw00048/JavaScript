@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Bands</title>
+</head>
+<body>
+    <script type="text/javascript">
+    var favBands = ["Led Zeppelin", "AC/DC", "The Rolling Stones", "Tool"];
+
+    var userGuess = prompt("What is your favorite band?");
+
+    var userGuessLower = userGuess.toLowerCase();
+
+    if (favBands.indexOf(userGuessLower) === -1) {
+        alert("Nah. They're pretty lame..."); 
+    }
+    else {
+        alert("OMG! I love them too!");
+    }
+    
+    </script>
+    
+</body>
+</html>
