@@ -8,7 +8,7 @@
 </head>
 <body>
     <script>
-        function getMilk(bottles){
+        function getMilk(money){
             console.log("leaveHouse");
             console.log("moveRight");
             console.log("moveRight");
@@ -18,7 +18,10 @@
             console.log("moveUp");
             console.log("moveRight");
             console.log("moveRight");
-            console.log("buy" + bottles + "Milk");
+
+            var numberOfBottles = Math.floor(money / 1.5);
+
+            console.log("buy " + numberOfBottles + " Milk");
             console.log("moveLeft");
             console.log("moveLeft");
             console.log("moveDown");
@@ -30,7 +33,7 @@
             console.log("enterHouse");
         }
 
-        getMilk(12);
+        getMilk(5);
     </script>
 </body>
 </html>
