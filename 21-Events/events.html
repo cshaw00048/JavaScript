@@ -15,5 +15,14 @@
           </div>
         </div>
       </div>
+
+      <script type="text/javascript">
+        var userText = document.getElementByID("user-text");
+
+        document.onkeyup = function(event) {
+            userText.textContent = event.key;
+        };      
+      
+      </script>
 </body>
 </html>
