@@ -40,6 +40,10 @@
             (userGuess === "s" && computerGuess === "p") ||
             (userGuess === "p" && computerGuess === "r")) {
                 wins++;
+            } else if (userGuess === computerGuess) {
+                ties++;
+            } else {
+                losses++;
             }
         }
     };
